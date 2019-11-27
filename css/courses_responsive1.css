@@ -1,0 +1,146 @@
+    @charset "utf-8";
+
+
+
+
+    @media only screen and (max-width: 768px)
+    {
+         
+    .main_nav,
+    .search_button
+    {
+        display: none;
+    }
+    .top_bar_contact_list li i,
+    .top_bar_contact_list li > div,
+    .login_button a
+    {
+        font-size: 12px;
+    }
+    .login_button
+    {
+        width: 140px;
+    }
+    .hamburger
+    {
+        display: inline-block;
+        margin-left: 33px;
+    }
+    .course_col:not(:last-child)
+    {
+        margin-bottom: 40px;
+    }
+    .sidebar
+    {
+        margin-top: 100px;
+        padding-left: 0;
+    }
+    .newsletter_container
+    {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .newsletter_form_container
+    {
+        margin-top: 19px;
+    }
+    .footer_col:not(:last-child)
+    {
+        margin-bottom: 60px;
+    }
+    .footer_contact,
+    .footer_links
+    {
+        padding-left: 0;
+    }
+    .footer_links ul
+    {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+    .footer_mobile
+    {
+        float: none;
+    }
+    .footer_logo_container
+    {
+        margin-top: 0;
+    }
+    .copyright
+    {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .cr_list
+    {
+        margin-top: 30px;
+    }
+    .cr_list li:not(:last-child)
+    {
+        margin-right: 20px;
+    }
+    .copyright div,
+    .cr_list li a
+    {
+        font-size: 13px;
+    }
+    
+    .top_bar
+    {
+        display: none;
+    }
+    .home
+    {
+        height: 140px;
+    }
+    .header.scrolled
+    {
+        top: 0px;
+    }
+
+    p
+    {
+        font-size: 13px;
+    }
+    .menu
+    {
+        width: 100%;
+        right: -100%;
+    }
+    .dropdown_item_select,
+    .home_search_button
+    {
+        font-size: 12px;
+    }
+    .newsletter_form_container
+    {
+        width: 100%;
+        padding-left: 0;
+    }
+    .lesson-content h1
+    {
+      float: left;
+    }
+
+    .all-lessons {
+    display:list-item;
+    grid-gap: 90px;
+    float: left;
+    justify-content: flex-start;
+
+
+    }
+
+    .lessonsgrid {
+    display: list-item;
+    grid-gap: 58px;
+    float: left;
+    justify-content: flex-start;
+    
+    }
+       
+    }
+
